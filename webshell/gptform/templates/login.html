@@ -1,0 +1,32 @@
+{% extends 'navBar.html' %}
+
+{% block title %}
+    Login
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h1>Login</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <div>
+                <label for="username"><b>Username: </b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+            </div>
+            
+            <br>
+            <div>
+                <label for="password"><b>Password: </b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+            </div>
+            
+            {% if error %}
+                <div class="error-text">
+                    {{ error }}
+                </div>
+            {% endif %}
+            <br>
+            <button type="submit" class="btn btn--primary">Login</button>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,67 @@
+:root {
+    --primary-btn-colour: #282828;
+    --primary-btn-font-colour: #fff;
+    --dark-btn-primary-colour: #505050;
+
+    --secondary-btn-colour: #fff;
+    --secondary-btn-font-colour: #000;
+    --dark-btn-secondary-colour: #aaa;
+}
+
+.btn {
+    font-size: 1em;
+    width: 150px;
+    min-height: 50px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    white-space: normal;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 3px var(--shadow-colour), -4px 4px 3px var(--shadow-colour);
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn--primary {
+    color: var(--primary-btn-font-colour);
+    background-color: var(--primary-btn-colour);
+}
+
+.btn--primary:hover {
+    background-color: var(--dark-btn-primary-colour);
+}
+
+.btn--primary:active {
+    background-color: var(--dark-btn-primary-colour);
+    box-shadow: 2px 2px 3px var(--dark-shadow-colour), -2px 2px 3px var(--dark-shadow-colour);
+    transform: translateY(2px);
+}
+
+.btn--secondary {
+    color: var(--secondary-btn-font-colour);
+    background-color: var(--secondary-btn-colour);
+}
+
+.btn--secondary:hover {
+    background-color: var(--dark-btn-secondary-colour);
+}
+
+.btn--secondary:active {
+    background-color: var(--dark-btn-secondary-colour);
+    box-shadow: 2px 2px 3px var(--dark-shadow-colour), -2px 2px 3px var(--dark-shadow-colour);
+    transform: translateY(2px);
+}
+
+@media (max-width: 600px) {
+    .btn {
+        font-size: 2em;
+        padding: 20px;
+    }
+}

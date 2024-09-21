@@ -1,0 +1,16 @@
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin-left: 20px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+.form-field input, .form-field textarea {
+    width: 100%;
+    box-sizing: border-box;
+}

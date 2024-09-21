@@ -1,0 +1,21 @@
+:root {
+    --shadow-colour: #999;
+    --dark-shadow-colour: #666;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+    margin-top: calc(var(--header-height) + 30px);
+}
+
+.error-text {
+    color: #D8000C;
+    margin: 10px 0;
+    position: relative;
+}
+

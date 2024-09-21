@@ -1,0 +1,46 @@
+Watching for file changes with StatReloader
+"GET /login/ HTTP/1.1" 200 1965
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2088
+"GET /logout/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 1965
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2091
+"GET /logout/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 1965
+Watching for file changes with StatReloader
+"GET /login/ HTTP/1.1" 200 1965
+"GET /static/gptform/btn-styles.css HTTP/1.1" 200 1696
+"GET /static/gptform/form-styles.css HTTP/1.1" 200 276
+"GET /static/gptform/other-styles.css HTTP/1.1" 200 450
+"GET /static/gptform/global-styles.css HTTP/1.1" 200 297
+"GET /static/gptform/navbar-styles.css HTTP/1.1" 200 1928
+"GET /static/gptform/MKC%20Grey.png HTTP/1.1" 200 30091
+"GET /static/gptform/dropdown.js HTTP/1.1" 200 305
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3253
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2093
+"GET /logout/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 1965
+"POST /login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2115
+"GET /logout/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 1965
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /login/?next=/ HTTP/1.1" 200 1965
+"POST /login/?next=/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2093
+"GET /logout/ HTTP/1.1" 302 0
+"GET /login/ HTTP/1.1" 200 1965
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 302 0
+"GET /login/?next=/ HTTP/1.1" 200 1965
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3253
+"POST /login/?next=/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 2093
+"GET /form/ HTTP/1.1" 200 4997
+"GET /contact-us/ HTTP/1.1" 200 2177
+"GET / HTTP/1.1" 200 2093

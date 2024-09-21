@@ -1,0 +1,29 @@
+:root {
+    --seperator-colour: #000;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--seperator-colour);
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid var(--seperator-colour);
+}
+
+.separator::before {
+    margin-right: .5em;
+}
+
+.separator::after {
+    margin-left: .5em;
+}
+
+.separator-text {
+    padding: 0 10px;
+}

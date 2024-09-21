@@ -1,0 +1,20 @@
+{% extends 'navBar.html' %}
+
+{% block title %}
+    Generate Document
+{% endblock %}
+
+{% block content %}
+    <h1>Project Proposal</h1>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-grid">
+            {% for field in form %}
+                <div class="form-field">
+                    {{ field.label_tag }} {{ field }}
+                </div>
+            {% endfor %}
+        </div>
+        <button class="btn btn--primary" type="submit">Submit</button> 
+    </form> 
+{% endblock %}
